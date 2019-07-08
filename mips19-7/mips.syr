@@ -1,0 +1,1070 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mips.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mips"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : mips
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : LUT
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/mips is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/mips.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/mips.vhd".
+WARNING:HDLParsers:3607 - Unit work/Datapath is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/Datapath.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/Datapath.vhd".
+WARNING:HDLParsers:3607 - Unit work/unidadControl is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/unidadControl.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/unidadControl.vhd".
+WARNING:HDLParsers:3607 - Unit work/alu is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/alu.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/alu.vhd".
+WARNING:HDLParsers:3607 - Unit work/alu/arch_alu is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/alu.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/alu.vhd".
+WARNING:HDLParsers:3607 - Unit work/aluDecoder is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/aluDecoder.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/aluDecoder.vhd".
+WARNING:HDLParsers:3607 - Unit work/aluDecoder/Behavioral is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/aluDecoder.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/aluDecoder.vhd".
+WARNING:HDLParsers:3607 - Unit work/aluPlus is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/aluPlus4.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/aluPlus4.vhd".
+WARNING:HDLParsers:3607 - Unit work/aluPlus/Behavioral is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/aluPlus4.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/aluPlus4.vhd".
+WARNING:HDLParsers:3607 - Unit work/controlador_io is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/controladorio.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/controladorio.vhd".
+WARNING:HDLParsers:3607 - Unit work/controlador_io/Behavioral is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/controladorio.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/controladorio.vhd".
+WARNING:HDLParsers:3607 - Unit work/latch is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/latch.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/latch.vhd".
+WARNING:HDLParsers:3607 - Unit work/latch/Behavioral is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/latch.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/latch.vhd".
+WARNING:HDLParsers:3607 - Unit work/mainDecoder is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/mainDecoder.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/mainDecoder.vhd".
+WARNING:HDLParsers:3607 - Unit work/mainDecoder/Behavioral is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/mainDecoder.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/mainDecoder.vhd".
+WARNING:HDLParsers:3607 - Unit work/mux_2_1_32bits is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/mux_2_1_32bits.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/mux_2_1_32bits.vhd".
+WARNING:HDLParsers:3607 - Unit work/mux_2_1_32bits/arch_mux_2_1_32bits is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/mux_2_1_32bits.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/mux_2_1_32bits.vhd".
+WARNING:HDLParsers:3607 - Unit work/mux_2_1_4bits is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/mux_2_1_4bits.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/mux_2_1_4bits.vhd".
+WARNING:HDLParsers:3607 - Unit work/mux_2_1_4bits/arch_mux_2_1_4bits is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/mux_2_1_4bits.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/mux_2_1_4bits.vhd".
+WARNING:HDLParsers:3607 - Unit work/mux_3_1_32bits is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/mux_3_1_32bits.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/mux_3_1_32bits.vhd".
+WARNING:HDLParsers:3607 - Unit work/mux_3_1_32bits/Behavioral is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/mux_3_1_32bits.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/mux_3_1_32bits.vhd".
+WARNING:HDLParsers:3607 - Unit work/PC is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/program_counter.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/program_counter.vhd".
+WARNING:HDLParsers:3607 - Unit work/PC/arch_PC is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/program_counter.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/program_counter.vhd".
+WARNING:HDLParsers:3607 - Unit work/RAM is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/RAM.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/RAM.vhd".
+WARNING:HDLParsers:3607 - Unit work/RAM/arch_RAM is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/RAM.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/RAM.vhd".
+WARNING:HDLParsers:3607 - Unit work/registros is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/registros.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/registros.vhd".
+WARNING:HDLParsers:3607 - Unit work/registros/arch_registros is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/registros.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/registros.vhd".
+WARNING:HDLParsers:3607 - Unit work/rom is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/ROM.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/ROM.vhd".
+WARNING:HDLParsers:3607 - Unit work/rom/syn is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/ROM.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/ROM.vhd".
+WARNING:HDLParsers:3607 - Unit work/signExtend is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/signExtend.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/signExtend.vhd".
+WARNING:HDLParsers:3607 - Unit work/signExtend/arch_signExtend is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/signExtend.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/signExtend.vhd".
+WARNING:HDLParsers:3607 - Unit work/anti_rebote is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/anti_rebote.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/anti_rebote.vhd".
+WARNING:HDLParsers:3607 - Unit work/anti_rebote/Behavioral is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/anti_rebote.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/anti_rebote.vhd".
+WARNING:HDLParsers:3607 - Unit work/BINtoCDU_BCD is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/BIN2CDU_BCD.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/BIN2CDU_BCD.vhd".
+WARNING:HDLParsers:3607 - Unit work/BINtoCDU_BCD/Behavioral is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/BIN2CDU_BCD.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/BIN2CDU_BCD.vhd".
+WARNING:HDLParsers:3607 - Unit work/display_mux is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/display_mux.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/display_mux.vhd".
+WARNING:HDLParsers:3607 - Unit work/display_mux/arch is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/display_mux.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/display_mux.vhd".
+WARNING:HDLParsers:3607 - Unit work/hex2led is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/hex2led.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/hex2led.vhd".
+WARNING:HDLParsers:3607 - Unit work/hex2led/arch is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/hex2led.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/hex2led.vhd".
+WARNING:HDLParsers:3607 - Unit work/Suma3 is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/suma3.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/suma3.vhd".
+WARNING:HDLParsers:3607 - Unit work/Suma3/Behavioral is now defined in a different file.  It was defined in "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/suma3.vhd", and is now defined in "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/suma3.vhd".
+Compiling vhdl file "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/suma3.vhd" in Library work.
+Architecture behavioral of Entity suma3 is up to date.
+Compiling vhdl file "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/anti_rebote.vhd" in Library work.
+Architecture behavioral of Entity anti_rebote is up to date.
+Compiling vhdl file "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/display_mux.vhd" in Library work.
+Architecture arch of Entity display_mux is up to date.
+Compiling vhdl file "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/BIN2CDU_BCD.vhd" in Library work.
+Architecture behavioral of Entity bintocdu_bcd is up to date.
+Compiling vhdl file "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/hex2led.vhd" in Library work.
+Architecture arch of Entity hex2led is up to date.
+Compiling vhdl file "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/aluDecoder.vhd" in Library work.
+Architecture behavioral of Entity aludecoder is up to date.
+Compiling vhdl file "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/mainDecoder.vhd" in Library work.
+Architecture behavioral of Entity maindecoder is up to date.
+Compiling vhdl file "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/program_counter.vhd" in Library work.
+Architecture arch_pc of Entity pc is up to date.
+Compiling vhdl file "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/RAM.vhd" in Library work.
+Architecture arch_ram of Entity ram is up to date.
+Compiling vhdl file "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/ROM.vhd" in Library work.
+Architecture syn of Entity rom is up to date.
+Compiling vhdl file "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/registros.vhd" in Library work.
+Architecture arch_registros of Entity registros is up to date.
+Compiling vhdl file "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/alu.vhd" in Library work.
+Architecture arch_alu of Entity alu is up to date.
+Compiling vhdl file "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/aluPlus4.vhd" in Library work.
+Architecture behavioral of Entity aluplus is up to date.
+Compiling vhdl file "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/mux_2_1_32bits.vhd" in Library work.
+Architecture arch_mux_2_1_32bits of Entity mux_2_1_32bits is up to date.
+Compiling vhdl file "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/mux_3_1_32bits.vhd" in Library work.
+Architecture behavioral of Entity mux_3_1_32bits is up to date.
+Compiling vhdl file "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/mux_2_1_4bits.vhd" in Library work.
+Architecture arch_mux_2_1_4bits of Entity mux_2_1_4bits is up to date.
+Compiling vhdl file "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/signExtend.vhd" in Library work.
+Architecture arch_signextend of Entity signextend is up to date.
+Compiling vhdl file "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/controladorio.vhd" in Library work.
+Architecture behavioral of Entity controlador_io is up to date.
+Compiling vhdl file "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/latch.vhd" in Library work.
+Architecture behavioral of Entity latch is up to date.
+Compiling vhdl file "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/divisor_frecuecia.vhd" in Library work.
+Entity <divisor_frecuecia> compiled.
+Entity <divisor_frecuecia> (Architecture <arq>) compiled.
+Compiling vhdl file "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/Datapath.vhd" in Library work.
+Entity <datapath> compiled.
+Entity <Datapath> (Architecture <arq>) compiled.
+Compiling vhdl file "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/unidadControl.vhd" in Library work.
+Entity <unidadcontrol> compiled.
+Entity <unidadControl> (Architecture <arq>) compiled.
+Compiling vhdl file "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/mips.vhd" in Library work.
+Entity <mips> compiled.
+Entity <mips> (Architecture <arq>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <mips> in library <work> (architecture <arq>).
+
+Analyzing hierarchy for entity <divisor_frecuecia> in library <work> (architecture <arq>).
+
+Analyzing hierarchy for entity <Datapath> in library <work> (architecture <arq>).
+
+Analyzing hierarchy for entity <unidadControl> in library <work> (architecture <arq>).
+
+Analyzing hierarchy for entity <PC> in library <work> (architecture <arch_pc>).
+
+Analyzing hierarchy for entity <RAM> in library <work> (architecture <arch_ram>).
+
+Analyzing hierarchy for entity <rom> in library <work> (architecture <syn>).
+
+Analyzing hierarchy for entity <registros> in library <work> (architecture <arch_registros>).
+
+Analyzing hierarchy for entity <alu> in library <work> (architecture <arch_alu>).
+
+Analyzing hierarchy for entity <aluPlus> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <mux_2_1_32bits> in library <work> (architecture <arch_mux_2_1_32bits>).
+
+Analyzing hierarchy for entity <mux_3_1_32bits> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <mux_2_1_4bits> in library <work> (architecture <arch_mux_2_1_4bits>).
+
+Analyzing hierarchy for entity <signExtend> in library <work> (architecture <arch_signextend>).
+
+Analyzing hierarchy for entity <controlador_io> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <latch> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <aluDecoder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <mainDecoder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <anti_rebote> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <display_mux> in library <work> (architecture <arch>).
+
+Analyzing hierarchy for entity <BINtoCDU_BCD> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <hex2led> in library <work> (architecture <arch>).
+
+Analyzing hierarchy for entity <Suma3> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <mips> in library <work> (Architecture <arq>).
+Entity <mips> analyzed. Unit <mips> generated.
+
+Analyzing Entity <divisor_frecuecia> in library <work> (Architecture <arq>).
+Entity <divisor_frecuecia> analyzed. Unit <divisor_frecuecia> generated.
+
+Analyzing Entity <Datapath> in library <work> (Architecture <arq>).
+Entity <Datapath> analyzed. Unit <Datapath> generated.
+
+Analyzing Entity <PC> in library <work> (Architecture <arch_pc>).
+Entity <PC> analyzed. Unit <PC> generated.
+
+Analyzing Entity <RAM> in library <work> (Architecture <arch_ram>).
+WARNING:Xst:790 - "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/RAM.vhd" line 32: Index value(s) does not match array range, simulation mismatch.
+INFO:Xst:1607 - Contents of array <ram> may be accessed with an index that does not cover the full array size.
+WARNING:Xst:790 - "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/RAM.vhd" line 41: Index value(s) does not match array range, simulation mismatch.
+INFO:Xst:1607 - Contents of array <ram> may be accessed with an index that does not cover the full array size.
+Entity <RAM> analyzed. Unit <RAM> generated.
+
+Analyzing Entity <rom> in library <work> (Architecture <syn>).
+WARNING:Xst:790 - "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/ROM.vhd" line 74: Index value(s) does not match array range, simulation mismatch.
+INFO:Xst:1607 - Contents of array <sROM> may be accessed with an index that does not cover the full array size.
+Entity <rom> analyzed. Unit <rom> generated.
+
+Analyzing Entity <registros> in library <work> (Architecture <arch_registros>).
+Entity <registros> analyzed. Unit <registros> generated.
+
+Analyzing Entity <alu> in library <work> (Architecture <arch_alu>).
+Entity <alu> analyzed. Unit <alu> generated.
+
+Analyzing Entity <aluPlus> in library <work> (Architecture <behavioral>).
+Entity <aluPlus> analyzed. Unit <aluPlus> generated.
+
+Analyzing Entity <mux_2_1_32bits> in library <work> (Architecture <arch_mux_2_1_32bits>).
+Entity <mux_2_1_32bits> analyzed. Unit <mux_2_1_32bits> generated.
+
+Analyzing Entity <mux_3_1_32bits> in library <work> (Architecture <behavioral>).
+Entity <mux_3_1_32bits> analyzed. Unit <mux_3_1_32bits> generated.
+
+Analyzing Entity <mux_2_1_4bits> in library <work> (Architecture <arch_mux_2_1_4bits>).
+Entity <mux_2_1_4bits> analyzed. Unit <mux_2_1_4bits> generated.
+
+Analyzing Entity <signExtend> in library <work> (Architecture <arch_signextend>).
+Entity <signExtend> analyzed. Unit <signExtend> generated.
+
+Analyzing Entity <controlador_io> in library <work> (Architecture <behavioral>).
+Entity <controlador_io> analyzed. Unit <controlador_io> generated.
+
+Analyzing Entity <anti_rebote> in library <work> (Architecture <behavioral>).
+Entity <anti_rebote> analyzed. Unit <anti_rebote> generated.
+
+Analyzing Entity <display_mux> in library <work> (Architecture <arch>).
+Entity <display_mux> analyzed. Unit <display_mux> generated.
+
+Analyzing Entity <BINtoCDU_BCD> in library <work> (Architecture <behavioral>).
+Entity <BINtoCDU_BCD> analyzed. Unit <BINtoCDU_BCD> generated.
+
+Analyzing Entity <Suma3> in library <work> (Architecture <behavioral>).
+Entity <Suma3> analyzed. Unit <Suma3> generated.
+
+Analyzing Entity <hex2led> in library <work> (Architecture <arch>).
+Entity <hex2led> analyzed. Unit <hex2led> generated.
+
+Analyzing Entity <latch> in library <work> (Architecture <behavioral>).
+Entity <latch> analyzed. Unit <latch> generated.
+
+Analyzing Entity <unidadControl> in library <work> (Architecture <arq>).
+Entity <unidadControl> analyzed. Unit <unidadControl> generated.
+
+Analyzing Entity <aluDecoder> in library <work> (Architecture <behavioral>).
+Entity <aluDecoder> analyzed. Unit <aluDecoder> generated.
+
+Analyzing Entity <mainDecoder> in library <work> (Architecture <behavioral>).
+Entity <mainDecoder> analyzed. Unit <mainDecoder> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <divisor_frecuecia>.
+    Related source file is "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/divisor_frecuecia.vhd".
+    Found 24-bit up counter for signal <contador1>.
+    Found 18-bit up counter for signal <contador2>.
+    Found 1-bit register for signal <temporal1>.
+    Found 1-bit register for signal <temporal2>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   2 D-type flip-flop(s).
+Unit <divisor_frecuecia> synthesized.
+
+
+Synthesizing Unit <PC>.
+    Related source file is "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/program_counter.vhd".
+    Found 32-bit register for signal <PCo>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <PC> synthesized.
+
+
+Synthesizing Unit <RAM>.
+    Related source file is "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/RAM.vhd".
+    Found 16x32-bit single-port RAM <Mram_ram> for signal <ram>.
+    Found 32-bit comparator greatequal for signal <and0000$cmp_ge0000> created at line 30.
+    Found 32-bit comparator less for signal <and0000$cmp_lt0000> created at line 30.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   2 Comparator(s).
+Unit <RAM> synthesized.
+
+
+Synthesizing Unit <rom>.
+    Related source file is "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/ROM.vhd".
+WARNING:Xst:1781 - Signal <sROM> is used but never assigned. Tied to default value.
+    Found 121x8-bit ROM for signal <sROM$mux0000> created at line 75.
+    Found 120x8-bit ROM for signal <sROM$mux0001> created at line 76.
+    Found 119x8-bit ROM for signal <sROM$mux0002> created at line 77.
+    Found 122x8-bit ROM for signal <DATA_31_24$varindex0000> created at line 74.
+    Summary:
+	inferred   4 ROM(s).
+Unit <rom> synthesized.
+
+
+Synthesizing Unit <registros>.
+    Related source file is "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/registros.vhd".
+    Found 32x32-bit dual-port RAM <Mram_mem> for signal <mem>.
+    Found 32x32-bit dual-port RAM <Mram_mem_ren> for signal <mem>.
+    Summary:
+	inferred   2 RAM(s).
+Unit <registros> synthesized.
+
+
+Synthesizing Unit <alu>.
+    Related source file is "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/alu.vhd".
+    Found 32-bit comparator less for signal <aux$cmp_lt0000> created at line 21.
+    Found 32-bit addsub for signal <aux$share0000>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <alu> synthesized.
+
+
+Synthesizing Unit <aluPlus>.
+    Related source file is "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/aluPlus4.vhd".
+    Found 32-bit adder for signal <aluPlusResult>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <aluPlus> synthesized.
+
+
+Synthesizing Unit <mux_2_1_32bits>.
+    Related source file is "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/mux_2_1_32bits.vhd".
+Unit <mux_2_1_32bits> synthesized.
+
+
+Synthesizing Unit <mux_3_1_32bits>.
+    Related source file is "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/mux_3_1_32bits.vhd".
+    Found 32-bit 4-to-1 multiplexer for signal <output>.
+    Summary:
+	inferred  32 Multiplexer(s).
+Unit <mux_3_1_32bits> synthesized.
+
+
+Synthesizing Unit <mux_2_1_4bits>.
+    Related source file is "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/mux_2_1_4bits.vhd".
+Unit <mux_2_1_4bits> synthesized.
+
+
+Synthesizing Unit <signExtend>.
+    Related source file is "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/signExtend.vhd".
+Unit <signExtend> synthesized.
+
+
+Synthesizing Unit <latch>.
+    Related source file is "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/latch.vhd".
+    Found 32-bit register for signal <ram<0>>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <latch> synthesized.
+
+
+Synthesizing Unit <anti_rebote>.
+    Related source file is "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/anti_rebote.vhd".
+    Found 1-bit register for signal <Q1>.
+    Found 1-bit register for signal <Q2>.
+    Found 1-bit register for signal <Q3>.
+    Found 25-bit up counter for signal <q_reg>.
+    Found 25-bit comparator greatequal for signal <q_reg$cmp_ge0000> created at line 39.
+    Found 1-bit register for signal <svalid>.
+    Found 25-bit comparator less for signal <svalid$cmp_lt0000> created at line 39.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   4 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <anti_rebote> synthesized.
+
+
+Synthesizing Unit <display_mux>.
+    Related source file is "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/display_mux.vhd".
+    Found 1-of-4 decoder for signal <an>.
+    Found 7-bit 4-to-1 multiplexer for signal <sseg>.
+    Found 19-bit up counter for signal <q_reg>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   7 Multiplexer(s).
+	inferred   1 Decoder(s).
+Unit <display_mux> synthesized.
+
+
+Synthesizing Unit <hex2led>.
+    Related source file is "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/hex2led.vhd".
+    Found 16x7-bit ROM for signal <sseg>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <hex2led> synthesized.
+
+
+Synthesizing Unit <Suma3>.
+    Related source file is "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/suma3.vhd".
+    Found 16x4-bit ROM for signal <B>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <Suma3> synthesized.
+
+
+Synthesizing Unit <aluDecoder>.
+    Related source file is "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/aluDecoder.vhd".
+Unit <aluDecoder> synthesized.
+
+
+Synthesizing Unit <mainDecoder>.
+    Related source file is "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/mainDecoder.vhd".
+Unit <mainDecoder> synthesized.
+
+
+Synthesizing Unit <unidadControl>.
+    Related source file is "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/unidadControl.vhd".
+WARNING:Xst:1305 - Output <cControlRa> is never assigned. Tied to value 0.
+Unit <unidadControl> synthesized.
+
+
+Synthesizing Unit <BINtoCDU_BCD>.
+    Related source file is "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/BIN2CDU_BCD.vhd".
+WARNING:Xst:646 - Signal <tmp14<3>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <BINtoCDU_BCD> synthesized.
+
+
+Synthesizing Unit <controlador_io>.
+    Related source file is "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/controladorio.vhd".
+WARNING:Xst:647 - Input <display<31:10>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <button> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <controlador_io> synthesized.
+
+
+Synthesizing Unit <Datapath>.
+    Related source file is "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/Datapath.vhd".
+WARNING:Xst:646 - Signal <sControlRa> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <Datapath> synthesized.
+
+
+Synthesizing Unit <mips>.
+    Related source file is "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/mips.vhd".
+WARNING:Xst:1780 - Signal <aux> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <mips> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+WARNING:Xst:524 - All outputs of the instance <Inst_anti_rebote1> of the block <anti_rebote> are unconnected in block <controlador_io>.
+   This instance will be removed from the design along with all underlying logic
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 3
+ 16x32-bit single-port RAM                             : 1
+ 32x32-bit dual-port RAM                               : 2
+# ROMs                                                 : 19
+ 119x8-bit ROM                                         : 1
+ 120x8-bit ROM                                         : 1
+ 121x8-bit ROM                                         : 1
+ 122x8-bit ROM                                         : 1
+ 16x4-bit ROM                                          : 12
+ 16x7-bit ROM                                          : 3
+# Adders/Subtractors                                   : 3
+ 32-bit adder                                          : 2
+ 32-bit addsub                                         : 1
+# Counters                                             : 3
+ 18-bit up counter                                     : 1
+ 19-bit up counter                                     : 1
+ 24-bit up counter                                     : 1
+# Registers                                            : 4
+ 1-bit register                                        : 2
+ 32-bit register                                       : 2
+# Comparators                                          : 3
+ 32-bit comparator greatequal                          : 1
+ 32-bit comparator less                                : 2
+# Multiplexers                                         : 2
+ 32-bit 4-to-1 multiplexer                             : 1
+ 7-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:2677 - Node <ram_0_10> of sequential type is unconnected in block <Inst_latch>.
+WARNING:Xst:2677 - Node <ram_0_11> of sequential type is unconnected in block <Inst_latch>.
+WARNING:Xst:2677 - Node <ram_0_12> of sequential type is unconnected in block <Inst_latch>.
+WARNING:Xst:2677 - Node <ram_0_13> of sequential type is unconnected in block <Inst_latch>.
+WARNING:Xst:2677 - Node <ram_0_14> of sequential type is unconnected in block <Inst_latch>.
+WARNING:Xst:2677 - Node <ram_0_15> of sequential type is unconnected in block <Inst_latch>.
+WARNING:Xst:2677 - Node <ram_0_16> of sequential type is unconnected in block <Inst_latch>.
+WARNING:Xst:2677 - Node <ram_0_17> of sequential type is unconnected in block <Inst_latch>.
+WARNING:Xst:2677 - Node <ram_0_18> of sequential type is unconnected in block <Inst_latch>.
+WARNING:Xst:2677 - Node <ram_0_19> of sequential type is unconnected in block <Inst_latch>.
+WARNING:Xst:2677 - Node <ram_0_20> of sequential type is unconnected in block <Inst_latch>.
+WARNING:Xst:2677 - Node <ram_0_21> of sequential type is unconnected in block <Inst_latch>.
+WARNING:Xst:2677 - Node <ram_0_22> of sequential type is unconnected in block <Inst_latch>.
+WARNING:Xst:2677 - Node <ram_0_23> of sequential type is unconnected in block <Inst_latch>.
+WARNING:Xst:2677 - Node <ram_0_24> of sequential type is unconnected in block <Inst_latch>.
+WARNING:Xst:2677 - Node <ram_0_25> of sequential type is unconnected in block <Inst_latch>.
+WARNING:Xst:2677 - Node <ram_0_26> of sequential type is unconnected in block <Inst_latch>.
+WARNING:Xst:2677 - Node <ram_0_27> of sequential type is unconnected in block <Inst_latch>.
+WARNING:Xst:2677 - Node <ram_0_28> of sequential type is unconnected in block <Inst_latch>.
+WARNING:Xst:2677 - Node <ram_0_29> of sequential type is unconnected in block <Inst_latch>.
+WARNING:Xst:2677 - Node <ram_0_30> of sequential type is unconnected in block <Inst_latch>.
+WARNING:Xst:2677 - Node <ram_0_31> of sequential type is unconnected in block <Inst_latch>.
+
+Synthesizing (advanced) Unit <RAM>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ram> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 32-bit                    |          |
+    |     clkA           | connected to signal <CLK>           | rise     |
+    |     weA            | connected to signal <WE_0>          | high     |
+    |     addrA          | connected to signal <A>             |          |
+    |     diA            | connected to signal <WD>            |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <RAM> synthesized (advanced).
+
+Synthesizing (advanced) Unit <registros>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_mem> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     clkA           | connected to signal <CLK>           | rise     |
+    |     weA            | connected to signal <WE3>           | high     |
+    |     addrA          | connected to signal <A3>            |          |
+    |     diA            | connected to signal <WD3>           |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     addrB          | connected to signal <A1>            |          |
+    |     doB            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_mem_ren> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     clkA           | connected to signal <CLK>           | rise     |
+    |     weA            | connected to signal <WE3>           | high     |
+    |     addrA          | connected to signal <A3>            |          |
+    |     diA            | connected to signal <WD3>           |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     addrB          | connected to signal <A2>            |          |
+    |     doB            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <registros> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 3
+ 16x32-bit single-port distributed RAM                 : 1
+ 32x32-bit dual-port distributed RAM                   : 2
+# ROMs                                                 : 19
+ 119x8-bit ROM                                         : 1
+ 120x8-bit ROM                                         : 1
+ 121x8-bit ROM                                         : 1
+ 122x8-bit ROM                                         : 1
+ 16x4-bit ROM                                          : 12
+ 16x7-bit ROM                                          : 3
+# Adders/Subtractors                                   : 3
+ 32-bit adder                                          : 2
+ 32-bit addsub                                         : 1
+# Counters                                             : 3
+ 18-bit up counter                                     : 1
+ 19-bit up counter                                     : 1
+ 24-bit up counter                                     : 1
+# Registers                                            : 66
+ Flip-Flops                                            : 66
+# Comparators                                          : 3
+ 32-bit comparator greatequal                          : 1
+ 32-bit comparator less                                : 2
+# Multiplexers                                         : 2
+ 32-bit 4-to-1 multiplexer                             : 1
+ 7-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <Inst_controlador_io/Inst_display_mux/q_reg_2> of sequential type is unconnected in block <Datapath>.
+WARNING:Xst:2677 - Node <Inst_controlador_io/Inst_display_mux/q_reg_3> of sequential type is unconnected in block <Datapath>.
+WARNING:Xst:2677 - Node <Inst_controlador_io/Inst_display_mux/q_reg_4> of sequential type is unconnected in block <Datapath>.
+WARNING:Xst:2677 - Node <Inst_controlador_io/Inst_display_mux/q_reg_5> of sequential type is unconnected in block <Datapath>.
+WARNING:Xst:2677 - Node <Inst_controlador_io/Inst_display_mux/q_reg_6> of sequential type is unconnected in block <Datapath>.
+WARNING:Xst:2677 - Node <Inst_controlador_io/Inst_display_mux/q_reg_7> of sequential type is unconnected in block <Datapath>.
+WARNING:Xst:2677 - Node <Inst_controlador_io/Inst_display_mux/q_reg_8> of sequential type is unconnected in block <Datapath>.
+WARNING:Xst:2677 - Node <Inst_controlador_io/Inst_display_mux/q_reg_9> of sequential type is unconnected in block <Datapath>.
+WARNING:Xst:2677 - Node <Inst_controlador_io/Inst_display_mux/q_reg_10> of sequential type is unconnected in block <Datapath>.
+WARNING:Xst:2677 - Node <Inst_controlador_io/Inst_display_mux/q_reg_11> of sequential type is unconnected in block <Datapath>.
+WARNING:Xst:2677 - Node <Inst_controlador_io/Inst_display_mux/q_reg_12> of sequential type is unconnected in block <Datapath>.
+WARNING:Xst:2677 - Node <Inst_controlador_io/Inst_display_mux/q_reg_13> of sequential type is unconnected in block <Datapath>.
+WARNING:Xst:2677 - Node <Inst_controlador_io/Inst_display_mux/q_reg_14> of sequential type is unconnected in block <Datapath>.
+WARNING:Xst:2677 - Node <Inst_controlador_io/Inst_display_mux/q_reg_15> of sequential type is unconnected in block <Datapath>.
+WARNING:Xst:2677 - Node <Inst_controlador_io/Inst_display_mux/q_reg_16> of sequential type is unconnected in block <Datapath>.
+WARNING:Xst:2677 - Node <Inst_controlador_io/Inst_display_mux/q_reg_17> of sequential type is unconnected in block <Datapath>.
+WARNING:Xst:2677 - Node <Inst_controlador_io/Inst_display_mux/q_reg_18> of sequential type is unconnected in block <Datapath>.
+
+Optimizing unit <mips> ...
+
+Optimizing unit <divisor_frecuecia> ...
+
+Optimizing unit <PC> ...
+
+Optimizing unit <RAM> ...
+
+Optimizing unit <registros> ...
+
+Optimizing unit <alu> ...
+
+Optimizing unit <latch> ...
+
+Optimizing unit <anti_rebote> ...
+
+Optimizing unit <BINtoCDU_BCD> ...
+
+Optimizing unit <Datapath> ...
+WARNING:Xst:2677 - Node <Inst_Datapath/Inst_latch/ram_0_10> of sequential type is unconnected in block <mips>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Inst_latch/ram_0_11> of sequential type is unconnected in block <mips>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Inst_latch/ram_0_12> of sequential type is unconnected in block <mips>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Inst_latch/ram_0_13> of sequential type is unconnected in block <mips>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Inst_latch/ram_0_14> of sequential type is unconnected in block <mips>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Inst_latch/ram_0_15> of sequential type is unconnected in block <mips>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Inst_latch/ram_0_16> of sequential type is unconnected in block <mips>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Inst_latch/ram_0_17> of sequential type is unconnected in block <mips>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Inst_latch/ram_0_18> of sequential type is unconnected in block <mips>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Inst_latch/ram_0_19> of sequential type is unconnected in block <mips>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Inst_latch/ram_0_20> of sequential type is unconnected in block <mips>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Inst_latch/ram_0_21> of sequential type is unconnected in block <mips>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Inst_latch/ram_0_22> of sequential type is unconnected in block <mips>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Inst_latch/ram_0_23> of sequential type is unconnected in block <mips>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Inst_latch/ram_0_24> of sequential type is unconnected in block <mips>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Inst_latch/ram_0_25> of sequential type is unconnected in block <mips>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Inst_latch/ram_0_26> of sequential type is unconnected in block <mips>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Inst_latch/ram_0_27> of sequential type is unconnected in block <mips>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Inst_latch/ram_0_28> of sequential type is unconnected in block <mips>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Inst_latch/ram_0_29> of sequential type is unconnected in block <mips>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Inst_latch/ram_0_30> of sequential type is unconnected in block <mips>.
+WARNING:Xst:2677 - Node <Inst_Datapath/Inst_latch/ram_0_31> of sequential type is unconnected in block <mips>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block mips, actual ratio is 65.
+FlipFlop Inst_Datapath/Inst_PC/PCo_0 has been replicated 3 time(s)
+FlipFlop Inst_Datapath/Inst_PC/PCo_1 has been replicated 3 time(s)
+FlipFlop Inst_Datapath/Inst_PC/PCo_2 has been replicated 3 time(s)
+FlipFlop Inst_Datapath/Inst_PC/PCo_3 has been replicated 4 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 101
+ Flip-Flops                                            : 101
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : mips.ngr
+Top Level Output File Name         : mips
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 14
+
+Cell Usage :
+# BELS                             : 1420
+#      GND                         : 1
+#      INV                         : 6
+#      LUT1                        : 69
+#      LUT2                        : 79
+#      LUT2_D                      : 6
+#      LUT2_L                      : 12
+#      LUT3                        : 128
+#      LUT3_D                      : 8
+#      LUT3_L                      : 8
+#      LUT4                        : 591
+#      LUT4_D                      : 37
+#      LUT4_L                      : 77
+#      MUXCY                       : 191
+#      MUXF5                       : 70
+#      VCC                         : 1
+#      XORCY                       : 136
+# FlipFlops/Latches                : 101
+#      FDC                         : 89
+#      FDCE                        : 2
+#      FDE                         : 10
+# RAMS                             : 160
+#      RAM16X1D                    : 128
+#      RAM16X1S                    : 32
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 12
+#      IBUF                        : 1
+#      OBUF                        : 11
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                      631  out of    960    65%  
+ Number of Slice Flip Flops:            101  out of   1920     5%  
+ Number of 4 input LUTs:               1309  out of   1920    68%  
+    Number used as logic:              1021
+    Number used as RAMs:                288
+ Number of IOs:                          14
+ Number of bonded IOBs:                  13  out of     83    15%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+-----------------------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                                           | Load  |
+-----------------------------------+-----------------------------------------------------------------+-------+
+clk                                | BUFGP                                                           | 44    |
+Inst_divisor_frecuecia/temporal11  | BUFG                                                            | 215   |
+Inst_divisor_frecuecia/temporal2   | NONE(Inst_Datapath/Inst_controlador_io/Inst_display_mux/q_reg_1)| 2     |
+-----------------------------------+-----------------------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst                                | IBUF                   | 91    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 18.973ns (Maximum Frequency: 52.706MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 16.026ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 5.231ns (frequency: 191.152MHz)
+  Total number of paths / destination ports: 1415 / 46
+-------------------------------------------------------------------------
+Delay:               5.231ns (Levels of Logic = 25)
+  Source:            Inst_divisor_frecuecia/contador1_1 (FF)
+  Destination:       Inst_divisor_frecuecia/contador1_23 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: Inst_divisor_frecuecia/contador1_1 to Inst_divisor_frecuecia/contador1_23
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.514   0.532  Inst_divisor_frecuecia/contador1_1 (Inst_divisor_frecuecia/contador1_1)
+     LUT1:I0->O            1   0.612   0.000  Inst_divisor_frecuecia/Mcount_contador1_cy<1>_rt (Inst_divisor_frecuecia/Mcount_contador1_cy<1>_rt)
+     MUXCY:S->O            1   0.404   0.000  Inst_divisor_frecuecia/Mcount_contador1_cy<1> (Inst_divisor_frecuecia/Mcount_contador1_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_divisor_frecuecia/Mcount_contador1_cy<2> (Inst_divisor_frecuecia/Mcount_contador1_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_divisor_frecuecia/Mcount_contador1_cy<3> (Inst_divisor_frecuecia/Mcount_contador1_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_divisor_frecuecia/Mcount_contador1_cy<4> (Inst_divisor_frecuecia/Mcount_contador1_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_divisor_frecuecia/Mcount_contador1_cy<5> (Inst_divisor_frecuecia/Mcount_contador1_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_divisor_frecuecia/Mcount_contador1_cy<6> (Inst_divisor_frecuecia/Mcount_contador1_cy<6>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_divisor_frecuecia/Mcount_contador1_cy<7> (Inst_divisor_frecuecia/Mcount_contador1_cy<7>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_divisor_frecuecia/Mcount_contador1_cy<8> (Inst_divisor_frecuecia/Mcount_contador1_cy<8>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_divisor_frecuecia/Mcount_contador1_cy<9> (Inst_divisor_frecuecia/Mcount_contador1_cy<9>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_divisor_frecuecia/Mcount_contador1_cy<10> (Inst_divisor_frecuecia/Mcount_contador1_cy<10>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_divisor_frecuecia/Mcount_contador1_cy<11> (Inst_divisor_frecuecia/Mcount_contador1_cy<11>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_divisor_frecuecia/Mcount_contador1_cy<12> (Inst_divisor_frecuecia/Mcount_contador1_cy<12>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_divisor_frecuecia/Mcount_contador1_cy<13> (Inst_divisor_frecuecia/Mcount_contador1_cy<13>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_divisor_frecuecia/Mcount_contador1_cy<14> (Inst_divisor_frecuecia/Mcount_contador1_cy<14>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_divisor_frecuecia/Mcount_contador1_cy<15> (Inst_divisor_frecuecia/Mcount_contador1_cy<15>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_divisor_frecuecia/Mcount_contador1_cy<16> (Inst_divisor_frecuecia/Mcount_contador1_cy<16>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_divisor_frecuecia/Mcount_contador1_cy<17> (Inst_divisor_frecuecia/Mcount_contador1_cy<17>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_divisor_frecuecia/Mcount_contador1_cy<18> (Inst_divisor_frecuecia/Mcount_contador1_cy<18>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_divisor_frecuecia/Mcount_contador1_cy<19> (Inst_divisor_frecuecia/Mcount_contador1_cy<19>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_divisor_frecuecia/Mcount_contador1_cy<20> (Inst_divisor_frecuecia/Mcount_contador1_cy<20>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_divisor_frecuecia/Mcount_contador1_cy<21> (Inst_divisor_frecuecia/Mcount_contador1_cy<21>)
+     MUXCY:CI->O           0   0.052   0.000  Inst_divisor_frecuecia/Mcount_contador1_cy<22> (Inst_divisor_frecuecia/Mcount_contador1_cy<22>)
+     XORCY:CI->O           1   0.699   0.509  Inst_divisor_frecuecia/Mcount_contador1_xor<23> (Inst_divisor_frecuecia/Result<23>)
+     LUT2:I0->O            1   0.612   0.000  Inst_divisor_frecuecia/Mcount_contador1_eqn_231 (Inst_divisor_frecuecia/Mcount_contador1_eqn_23)
+     FDC:D                     0.268          Inst_divisor_frecuecia/contador1_23
+    ----------------------------------------
+    Total                      5.231ns (4.191ns logic, 1.041ns route)
+                                       (80.1% logic, 19.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_divisor_frecuecia/temporal11'
+  Clock period: 18.973ns (frequency: 52.706MHz)
+  Total number of paths / destination ports: 341119069 / 1537
+-------------------------------------------------------------------------
+Delay:               18.973ns (Levels of Logic = 42)
+  Source:            Inst_Datapath/Inst_PC/PCo_0_1 (FF)
+  Destination:       Inst_Datapath/Inst_PC/PCo_18 (FF)
+  Source Clock:      Inst_divisor_frecuecia/temporal11 rising
+  Destination Clock: Inst_divisor_frecuecia/temporal11 rising
+
+  Data Path: Inst_Datapath/Inst_PC/PCo_0_1 to Inst_Datapath/Inst_PC/PCo_18
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             17   0.514   1.045  Inst_Datapath/Inst_PC/PCo_0_1 (Inst_Datapath/Inst_PC/PCo_0_1)
+     LUT2_L:I0->LO         1   0.612   0.103  Inst_Datapath/Inst_rom/Mrom_sROM_mux0000461_6_SW0_SW0 (N570)
+     LUT4:I3->O            1   0.612   0.360  Inst_Datapath/Inst_rom/Mrom_sROM_mux0000461_6_SW0 (N420)
+     LUT4:I3->O            1   0.612   0.000  Inst_Datapath/Inst_rom/Mrom_sROM_mux0000461_5_f5_G (N730)
+     MUXF5:I1->O           6   0.278   0.599  Inst_Datapath/Inst_rom/Mrom_sROM_mux0000461_5_f5 (Inst_Datapath/Inst_rom/Mrom_sROM_mux0000461_5_f5)
+     LUT3:I2->O           16   0.612   0.879  Inst_Datapath/sPC<6>311_1 (Inst_Datapath/sPC<6>3111)
+     RAM16X1D:DPRA2->DPO    1   0.612   0.387  Inst_Datapath/Inst_registros/Mram_mem4 (Inst_Datapath/Inst_registros/N11)
+     LUT4:I2->O            3   0.612   0.454  Inst_Datapath/Inst_registros/RD1<1>1 (Inst_Datapath/sRegistro1<1>)
+     LUT4:I3->O            1   0.612   0.360  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_lut<1>_SW0 (N505)
+     LUT4:I3->O            1   0.612   0.000  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_lut<1> (Inst_Datapath/Inst_alu/Maddsub_aux_share0000_lut<1>)
+     MUXCY:S->O            1   0.404   0.000  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<1> (Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<2> (Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<3> (Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<4> (Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<5> (Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<6> (Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<6>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<7> (Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<7>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<8> (Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<8>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<9> (Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<9>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<10> (Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<10>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<11> (Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<11>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<12> (Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<12>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<13> (Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<13>)
+     MUXCY:CI->O           1   0.052   0.000  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<14> (Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<15> (Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<16> (Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<17> (Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<17>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<18> (Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<18>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<19> (Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<19>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<20> (Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<20>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<21> (Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<21>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<22> (Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<22>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<23> (Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<23>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<24> (Inst_Datapath/Inst_alu/Maddsub_aux_share0000_cy<24>)
+     XORCY:CI->O           1   0.699   0.360  Inst_Datapath/Inst_alu/Maddsub_aux_share0000_xor<25> (Inst_Datapath/Inst_alu/aux_share0000<25>)
+     LUT4:I3->O            5   0.612   0.690  Inst_Datapath/Inst_alu/aux<25> (Inst_Datapath/sALUResult<25>)
+     LUT4:I0->O            1   0.612   0.000  Inst_Datapath/Inst_ram/Mcompar_and0000_cmp_lt0000_lut<6> (Inst_Datapath/Inst_ram/Mcompar_and0000_cmp_lt0000_lut<6>)
+     MUXCY:S->O            1   0.404   0.000  Inst_Datapath/Inst_ram/Mcompar_and0000_cmp_lt0000_cy<6> (Inst_Datapath/Inst_ram/Mcompar_and0000_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  Inst_Datapath/Inst_ram/Mcompar_and0000_cmp_lt0000_cy<7> (Inst_Datapath/Inst_ram/Mcompar_and0000_cmp_lt0000_cy<7>)
+     MUXCY:CI->O          22   0.399   1.058  Inst_Datapath/Inst_ram/Mcompar_and0000_cmp_lt0000_cy<8> (Inst_Datapath/Inst_ram/Mcompar_and0000_cmp_lt0000_cy<8>)
+     LUT2_D:I1->O         14   0.612   0.853  Inst_Datapath/Inst_ram/_and00001 (Inst_Datapath/Inst_ram/_and0000)
+     LUT4:I3->O            1   0.612   0.000  Inst_Datapath/Inst_mux_Jump/Mmux_output33_G (N662)
+     MUXF5:I1->O           1   0.278   0.000  Inst_Datapath/Inst_mux_Jump/Mmux_output33 (Inst_Datapath/sPCJump<30>)
+     FDC:D                     0.268          Inst_Datapath/Inst_PC/PCo_30
+    ----------------------------------------
+    Total                     18.973ns (11.825ns logic, 7.149ns route)
+                                       (62.3% logic, 37.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Inst_divisor_frecuecia/temporal2'
+  Clock period: 3.405ns (frequency: 293.703MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               3.405ns (Levels of Logic = 3)
+  Source:            Inst_Datapath/Inst_controlador_io/Inst_display_mux/q_reg_0 (FF)
+  Destination:       Inst_Datapath/Inst_controlador_io/Inst_display_mux/q_reg_1 (FF)
+  Source Clock:      Inst_divisor_frecuecia/temporal2 rising
+  Destination Clock: Inst_divisor_frecuecia/temporal2 rising
+
+  Data Path: Inst_Datapath/Inst_controlador_io/Inst_display_mux/q_reg_0 to Inst_Datapath/Inst_controlador_io/Inst_display_mux/q_reg_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             18   0.514   0.908  Inst_Datapath/Inst_controlador_io/Inst_display_mux/q_reg_0 (Inst_Datapath/Inst_controlador_io/Inst_display_mux/q_reg_0)
+     INV:I->O              1   0.612   0.000  Inst_Datapath/Inst_controlador_io/Inst_display_mux/Mcount_q_reg_lut<0>_INV_0 (Inst_Datapath/Inst_controlador_io/Inst_display_mux/Mcount_q_reg_lut<0>)
+     MUXCY:S->O            0   0.404   0.000  Inst_Datapath/Inst_controlador_io/Inst_display_mux/Mcount_q_reg_cy<0> (Inst_Datapath/Inst_controlador_io/Inst_display_mux/Mcount_q_reg_cy<0>)
+     XORCY:CI->O           1   0.699   0.000  Inst_Datapath/Inst_controlador_io/Inst_display_mux/Mcount_q_reg_xor<1> (Inst_Datapath/Result<1>)
+     FDC:D                     0.268          Inst_Datapath/Inst_controlador_io/Inst_display_mux/q_reg_1
+    ----------------------------------------
+    Total                      3.405ns (2.497ns logic, 0.908ns route)
+                                       (73.3% logic, 26.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_divisor_frecuecia/temporal2'
+  Total number of paths / destination ports: 33 / 11
+-------------------------------------------------------------------------
+Offset:              6.684ns (Levels of Logic = 3)
+  Source:            Inst_Datapath/Inst_controlador_io/Inst_display_mux/q_reg_0 (FF)
+  Destination:       sieteSeg<6> (PAD)
+  Source Clock:      Inst_divisor_frecuecia/temporal2 rising
+
+  Data Path: Inst_Datapath/Inst_controlador_io/Inst_display_mux/q_reg_0 to sieteSeg<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             18   0.514   1.060  Inst_Datapath/Inst_controlador_io/Inst_display_mux/q_reg_0 (Inst_Datapath/Inst_controlador_io/Inst_display_mux/q_reg_0)
+     LUT4:I0->O            1   0.612   0.360  Inst_Datapath/Inst_controlador_io/Inst_display_mux/Mmux_sseg12113 (Inst_Datapath/Inst_controlador_io/Inst_display_mux/Mmux_sseg12113)
+     LUT4:I3->O            1   0.612   0.357  Inst_Datapath/Inst_controlador_io/Inst_display_mux/Mmux_sseg12188 (sieteSeg_5_OBUF)
+     OBUF:I->O                 3.169          sieteSeg_5_OBUF (sieteSeg<5>)
+    ----------------------------------------
+    Total                      6.684ns (4.907ns logic, 1.777ns route)
+                                       (73.4% logic, 26.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_divisor_frecuecia/temporal11'
+  Total number of paths / destination ports: 74621 / 7
+-------------------------------------------------------------------------
+Offset:              16.026ns (Levels of Logic = 11)
+  Source:            Inst_Datapath/Inst_latch/ram_0_9 (FF)
+  Destination:       sieteSeg<6> (PAD)
+  Source Clock:      Inst_divisor_frecuecia/temporal11 rising
+
+  Data Path: Inst_Datapath/Inst_latch/ram_0_9 to sieteSeg<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              6   0.514   0.721  Inst_Datapath/Inst_latch/ram_0_9 (Inst_Datapath/Inst_latch/ram_0_9)
+     LUT4:I0->O            5   0.612   0.690  Inst_Datapath/Inst_controlador_io/Inst_BINtoCDU_BCD/S2/Mrom_B12 (Inst_Datapath/Inst_controlador_io/Inst_BINtoCDU_BCD/S2/Mrom_B)
+     LUT4:I0->O            5   0.612   0.690  Inst_Datapath/Inst_controlador_io/Inst_BINtoCDU_BCD/S3/Mrom_B111 (Inst_Datapath/Inst_controlador_io/Inst_BINtoCDU_BCD/S3/Mrom_B1)
+     LUT4:I0->O            3   0.612   0.603  Inst_Datapath/Inst_controlador_io/Inst_BINtoCDU_BCD/S4/Mrom_B1 (Inst_Datapath/Inst_controlador_io/Inst_BINtoCDU_BCD/S4/Mrom_B)
+     LUT4:I0->O            5   0.612   0.690  Inst_Datapath/Inst_controlador_io/Inst_BINtoCDU_BCD/S5/Mrom_B111 (Inst_Datapath/Inst_controlador_io/Inst_BINtoCDU_BCD/S5/Mrom_B1)
+     LUT4:I0->O            7   0.612   0.671  Inst_Datapath/Inst_controlador_io/Inst_BINtoCDU_BCD/S6/Mrom_B3 (Inst_Datapath/Inst_controlador_io/Inst_BINtoCDU_BCD/S6/Mrom_B3)
+     LUT4:I1->O            6   0.612   0.721  Inst_Datapath/Inst_controlador_io/Inst_BINtoCDU_BCD/S12/Mrom_B111 (Inst_Datapath/Inst_controlador_io/sCDU<6>)
+     LUT4:I0->O            1   0.612   0.360  Inst_Datapath/Inst_controlador_io/Inst_display_mux/Mmux_sseg1456 (Inst_Datapath/Inst_controlador_io/Inst_display_mux/Mmux_sseg1456)
+     LUT4:I3->O            1   0.612   0.360  Inst_Datapath/Inst_controlador_io/Inst_display_mux/Mmux_sseg14183_SW0 (N797)
+     LUT4:I3->O            1   0.612   0.360  Inst_Datapath/Inst_controlador_io/Inst_display_mux/Mmux_sseg14183 (Inst_Datapath/Inst_controlador_io/Inst_display_mux/Mmux_sseg14183)
+     LUT4:I3->O            1   0.612   0.357  Inst_Datapath/Inst_controlador_io/Inst_display_mux/Mmux_sseg14290 (sieteSeg_6_OBUF)
+     OBUF:I->O                 3.169          sieteSeg_6_OBUF (sieteSeg<6>)
+    ----------------------------------------
+    Total                     16.026ns (9.803ns logic, 6.223ns route)
+                                       (61.2% logic, 38.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 14.21 secs
+ 
+--> 
+
+
+Total memory usage is 531204 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  113 (   0 filtered)
+Number of infos    :    8 (   0 filtered)
+

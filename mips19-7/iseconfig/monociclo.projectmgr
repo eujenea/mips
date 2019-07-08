@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="monociclo" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/BINtoCDU_BCD - Behavioral C:|Users|Juan|Desktop|JUEVES 14|MIPS 2018|BIN2CDU_BCD.vhd</ClosedNode>
+         <ClosedNode>/BINtoCDU_BCD - Behavioral |home|ise|Desktop|JUEVES 13|MIPS 2018|BIN2CDU_BCD.vhd</ClosedNode>
+         <ClosedNode>/controlador_io - Behavioral C:|Users|Juan|Desktop|JUEVES 14|MIPS 2018|controladorio.vhd</ClosedNode>
+         <ClosedNode>/controlador_io - Behavioral C:|Users|Juan|Desktop|JUEVES 14|MIPS 2018|controladorio.vhd/Inst_BINtoCDU_BCD - BINtoCDU_BCD - Behavioral</ClosedNode>
+         <ClosedNode>/controlador_io - Behavioral |home|ise|Desktop|JUEVES 13|MIPS 2018|controladorio.vhd</ClosedNode>
+         <ClosedNode>/mips - Behavioral C:|Users|Joaquin|Desktop|JUAN MP|MIPS 2018|mips.vhd/Inst_Datapath - Datapath - Behavioral/Inst_controlador_io - controlador_io - Behavioral/Inst_BINtoCDU_BCD - BINtoCDU_BCD - Behavioral</ClosedNode>
+         <ClosedNode>/mips - Behavioral C:|Users|Joaquin|Desktop|JUEVES 14|MIPS 2018|mips.vhd/Inst_Datapath - Datapath - Behavioral/Inst_controlador_io - controlador_io - Behavioral/Inst_BINtoCDU_BCD - BINtoCDU_BCD - Behavioral</ClosedNode>
+         <ClosedNode>/mips - Behavioral C:|Users|Joaquin|Desktop|JUEVES 15 FPGA|MIPS 2018|mips.vhd/Inst_Datapath - Datapath - Behavioral/Inst_controlador_io - controlador_io - Behavioral/Inst_BINtoCDU_BCD - BINtoCDU_BCD - Behavioral</ClosedNode>
+         <ClosedNode>/mips - Behavioral C:|Users|Joaquin|Desktop|JUEVES 15 FPGA|MIPS 2018|mips.vhd/Inst_unidadControl - unidadControl - Behavioral</ClosedNode>
+         <ClosedNode>/mips - Behavioral C:|Users|Juan|Desktop|JUEVES 14|MIPS 2018|mips.vhd/Inst_Datapath - Datapath - Behavioral/Inst_controlador_io - controlador_io - Behavioral/Inst_BINtoCDU_BCD - BINtoCDU_BCD - Behavioral</ClosedNode>
+         <ClosedNode>/mips - Behavioral C:|Users|Juan|Desktop|JUEVES 14|MIPS 2018|mips.vhd/Inst_unidadControl - unidadControl - Behavioral</ClosedNode>
+         <ClosedNode>/mips - Behavioral C:|Users|Juan|Desktop|JUEVES 15 FPGA|MIPS 2018|mips.vhd/Inst_Datapath - Datapath - Behavioral/Inst_controlador_io - controlador_io - Behavioral/Inst_BINtoCDU_BCD - BINtoCDU_BCD - Behavioral</ClosedNode>
+         <ClosedNode>/mips - Behavioral C:|Users|Juan|Desktop|JUEVES 15|MIPS 2018|mips.vhd/Inst_Datapath - Datapath - Behavioral/Inst_controlador_io - controlador_io - Behavioral/Inst_BINtoCDU_BCD - BINtoCDU_BCD - Behavioral</ClosedNode>
+         <ClosedNode>/mips - Behavioral C:|Users|Juan|Desktop|JUEVES 15|MIPS 2018|mips.vhd/Inst_unidadControl - unidadControl - Behavioral</ClosedNode>
+         <ClosedNode>/mips - Behavioral C:|Users|Juan|Desktop|MIPS 2018|mips.vhd/Inst_Datapath - Datapath - Behavioral/Inst_controlador_io - controlador_io - Behavioral</ClosedNode>
+         <ClosedNode>/mips - Behavioral C:|Users|Juan|Desktop|MIPS 2018|mips.vhd/Inst_Datapath - Datapath - Behavioral/Inst_controlador_io - controlador_io - Behavioral/Inst_BINtoCDU_BCD - BINtoCDU_BCD - Behavioral</ClosedNode>
+         <ClosedNode>/mips - Behavioral C:|Users|Juan|Desktop|MIPS 2018|mips.vhd/Inst_unidadControl - unidadControl - Behavioral</ClosedNode>
+         <ClosedNode>/mips - Behavioral D:|MIPS 2018|monociclo|mips.vhd/Inst_unidadControl - unidadControl - Behavioral</ClosedNode>
+         <ClosedNode>/program_counter - arch_program_counter D:|MIPS 2018|monociclo|program_counter.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Inst_divisor_frecuecia - divisor_frecuecia - Behavioral (C:/Users/Juan/Desktop/MIPS 2018/divisor_frecuecia.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >2</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000234000000020000000000000000000000000200000064ffffffff000000810000000300000002000002340000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Inst_divisor_frecuecia - divisor_frecuecia - Behavioral (C:/Users/Juan/Desktop/MIPS 2018/divisor_frecuecia.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000011a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000011a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000001b10000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>program_counter.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Implement Design/Map/Generate Post-Map Static Timing</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Back-annotate Pin Locations</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate IBIS Model</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate Post-Place &amp; Route Static Timing</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000011a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000011a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/BINtoCDU_BCD - Behavioral C:|Users|Juan|Desktop|JUEVES 14|MIPS 2018|BIN2CDU_BCD.vhd</ClosedNode>
+         <ClosedNode>/TB_ALU - behavior C:|Users|Joaquin|Desktop|MIPS 2018|monociclo|TB-ALU.vhd</ClosedNode>
+         <ClosedNode>/TB_ALU - behavior C:|Users|Juan|Desktop|JUEVES 14|MIPS 2018|TB-ALU.vhd</ClosedNode>
+         <ClosedNode>/TB_ALU - behavior C:|Users|Juan|Desktop|JUEVES 15|MIPS 2018|TB-ALU.vhd</ClosedNode>
+         <ClosedNode>/TB_ALU - behavior C:|Users|Juan|Desktop|MIPS 2018|TB-ALU.vhd</ClosedNode>
+         <ClosedNode>/TB_ALU - behavior C:|Users|Juan|Desktop|MIPS 2018|monociclo|TB-ALU.vhd</ClosedNode>
+         <ClosedNode>/TB_ALU - behavior C:|Users|Juan|Desktop|TODO ANDA|MIPS 2018|TB-ALU.vhd</ClosedNode>
+         <ClosedNode>/TB_ALU - behavior |home|ise|Desktop|JUEVES 13|MIPS 2018|TB-ALU.vhd</ClosedNode>
+         <ClosedNode>/TB_MIPs2 - behavior C:|Users|Joaquin|Desktop|JUAN MP|MIPS 2018|TB_MIPs2.vhd/uut - mips - Behavioral/Inst_Datapath - Datapath - Behavioral/Inst_controlador_io - controlador_io - Behavioral</ClosedNode>
+         <ClosedNode>/TB_MIPs2 - behavior C:|Users|Joaquin|Desktop|JUAN MP|MIPS 2018|TB_MIPs2.vhd/uut - mips - Behavioral/Inst_unidadControl - unidadControl - Behavioral</ClosedNode>
+         <ClosedNode>/TB_MIPs2 - behavior C:|Users|Joaquin|Desktop|JUEVES 15 FPGA|MIPS 2018|TB_MIPs2.vhd/uut - mips - Behavioral/Inst_Datapath - Datapath - Behavioral/Inst_controlador_io - controlador_io - Behavioral</ClosedNode>
+         <ClosedNode>/TB_MIPs2 - behavior C:|Users|Joaquin|Desktop|JUEVES 15 FPGA|MIPS 2018|TB_MIPs2.vhd/uut - mips - Behavioral/Inst_unidadControl - unidadControl - Behavioral</ClosedNode>
+         <ClosedNode>/TB_MIPs2 - behavior C:|Users|Joaquin|Desktop|MIPS 2018|monociclo|TB_MIPs2.vhd/uut - mips - Behavioral/Inst_unidadControl - unidadControl - Behavioral</ClosedNode>
+         <ClosedNode>/TB_MIPs2 - behavior C:|Users|Juan|Desktop|JUEVES 14|MIPS 2018|TB_MIPs2.vhd/uut - mips - Behavioral/Inst_Datapath - Datapath - Behavioral</ClosedNode>
+         <ClosedNode>/TB_MIPs2 - behavior C:|Users|Juan|Desktop|JUEVES 15|MIPS 2018|TB_MIPs2.vhd</ClosedNode>
+         <ClosedNode>/TB_MIPs2 - behavior C:|Users|Juan|Desktop|JUEVES 15|MIPS 2018|TB_MIPs2.vhd/uut - mips - Behavioral/Inst_Datapath - Datapath - Behavioral/Inst_controlador_io - controlador_io - Behavioral/Inst_BINtoCDU_BCD - BINtoCDU_BCD - Behavioral</ClosedNode>
+         <ClosedNode>/TB_MIPs2 - behavior C:|Users|Juan|Desktop|JUEVES 15|MIPS 2018|TB_MIPs2.vhd/uut - mips - Behavioral/Inst_unidadControl - unidadControl - Behavioral</ClosedNode>
+         <ClosedNode>/TB_MIPs2 - behavior C:|Users|Juan|Desktop|MIPS 2018|TB_MIPs2.vhd/uut - mips - Behavioral/Inst_Datapath - Datapath - Behavioral</ClosedNode>
+         <ClosedNode>/TB_MIPs2 - behavior C:|Users|Juan|Desktop|MIPS 2018|TB_MIPs2.vhd/uut - mips - Behavioral/Inst_Datapath - Datapath - Behavioral/Inst_controlador_io - controlador_io - Behavioral</ClosedNode>
+         <ClosedNode>/TB_MIPs2 - behavior C:|Users|Juan|Desktop|MIPS 2018|TB_MIPs2.vhd/uut - mips - Behavioral/Inst_unidadControl - unidadControl - Behavioral</ClosedNode>
+         <ClosedNode>/TB_MIPs2 - behavior C:|Users|Juan|Desktop|MIPS 2018|monociclo|TB_MIPs2.vhd/uut - mips - Behavioral/Inst_unidadControl - unidadControl - Behavioral</ClosedNode>
+         <ClosedNode>/TB_MIPs2 - behavior C:|Users|Juan|Desktop|TODO ANDA|MIPS 2018|TB_MIPs2.vhd</ClosedNode>
+         <ClosedNode>/TB_MIPs2 - behavior |home|ise|Desktop|JUEVES 13|MIPS 2018|TB_MIPs2.vhd</ClosedNode>
+         <ClosedNode>/TB_Mips - behavior C:|MIPS 2018|monociclo|TB_Mips.vhd</ClosedNode>
+         <ClosedNode>/TB_Mips - behavior C:|MIPS 2018|monociclo|TB_Mips.vhd/uut - mips - Behavioral</ClosedNode>
+         <ClosedNode>/TB_Mips - behavior C:|Users|Joaquin|Desktop|MIPS 2018|monociclo|TB_Mips.vhd</ClosedNode>
+         <ClosedNode>/TB_Mips - behavior C:|Users|Joaquin|Desktop|MIPS 2018|monociclo|TB_Mips.vhd/uut - mips - Behavioral/Inst_Datapath - Datapath - Behavioral</ClosedNode>
+         <ClosedNode>/TB_Mips - behavior C:|Users|Joaquin|Desktop|MIPS 2018|monociclo|TB_Mips.vhd/uut - mips - Behavioral/Inst_unidadControl - unidadControl - Behavioral</ClosedNode>
+         <ClosedNode>/TB_Mips - behavior C:|Users|Juan|Desktop|MIPS 2018|monociclo|TB_Mips.vhd</ClosedNode>
+         <ClosedNode>/TB_Mips - behavior |home|ise|Desktop|JUEVES 13|MIPS 2018|TB_Mips.vhd</ClosedNode>
+         <ClosedNode>/TB_PC - behavior C:|MIPS 2018|monociclo|TB_PC.vhd</ClosedNode>
+         <ClosedNode>/TB_PC - behavior C:|Users|Joaquin|Desktop|JUEVES 15 FPGA|MIPS 2018|TB_PC.vhd</ClosedNode>
+         <ClosedNode>/TB_PC - behavior C:|Users|Joaquin|Desktop|MIPS 2018|monociclo|TB_PC.vhd</ClosedNode>
+         <ClosedNode>/TB_PC - behavior C:|Users|Juan|Desktop|JUEVES 14|MIPS 2018|TB_PC.vhd</ClosedNode>
+         <ClosedNode>/TB_PC - behavior C:|Users|Juan|Desktop|JUEVES 15|MIPS 2018|TB_PC.vhd</ClosedNode>
+         <ClosedNode>/TB_PC - behavior C:|Users|Juan|Desktop|MIPS 2018|TB_PC.vhd</ClosedNode>
+         <ClosedNode>/TB_PC - behavior C:|Users|Juan|Desktop|MIPS 2018|monociclo|TB_PC.vhd</ClosedNode>
+         <ClosedNode>/TB_PC - behavior C:|Users|Juan|Desktop|TODO ANDA|MIPS 2018|TB_PC.vhd</ClosedNode>
+         <ClosedNode>/TB_PC - behavior D:|MIPS 2018|monociclo|TB_PC.vhd</ClosedNode>
+         <ClosedNode>/TB_PC - behavior |home|ise|Desktop|JUEVES 13|MIPS 2018|TB_PC.vhd</ClosedNode>
+         <ClosedNode>/TB_RAM - behavior C:|MIPS 2018|monociclo|TB_RAM.vhd</ClosedNode>
+         <ClosedNode>/TB_RAM - behavior C:|Users|Joaquin|Desktop|MIPS 2018|monociclo|TB_RAM.vhd</ClosedNode>
+         <ClosedNode>/TB_RAM - behavior C:|Users|Juan|Desktop|JUEVES 15|MIPS 2018|TB_RAM.vhd</ClosedNode>
+         <ClosedNode>/TB_RAM - behavior C:|Users|Juan|Desktop|MIPS 2018|TB_RAM.vhd</ClosedNode>
+         <ClosedNode>/TB_RAM - behavior C:|Users|Juan|Desktop|TODO ANDA|MIPS 2018|TB_RAM.vhd</ClosedNode>
+         <ClosedNode>/TB_RAM - behavior D:|MIPS 2018|monociclo|TB_RAM.vhd</ClosedNode>
+         <ClosedNode>/TB_RAM - behavior |home|ise|Desktop|JUEVES 13|MIPS 2018|TB_RAM.vhd</ClosedNode>
+         <ClosedNode>/TB_ROM - behavior C:|MIPS 2018|monociclo|TB_ROM.vhd</ClosedNode>
+         <ClosedNode>/TB_ROM - behavior C:|Users|Joaquin|Desktop|MIPS 2018|monociclo|TB_ROM.vhd</ClosedNode>
+         <ClosedNode>/TB_ROM - behavior C:|Users|Juan|Desktop|JUEVES 15|MIPS 2018|TB_ROM.vhd</ClosedNode>
+         <ClosedNode>/TB_ROM - behavior C:|Users|Juan|Desktop|MIPS 2018|TB_ROM.vhd</ClosedNode>
+         <ClosedNode>/TB_ROM - behavior C:|Users|Juan|Desktop|TODO ANDA|MIPS 2018|TB_ROM.vhd</ClosedNode>
+         <ClosedNode>/TB_ROM - behavior D:|MIPS 2018|monociclo|TB_ROM.vhd</ClosedNode>
+         <ClosedNode>/TB_ROM - behavior |home|ise|Desktop|JUEVES 13|MIPS 2018|TB_ROM.vhd</ClosedNode>
+         <ClosedNode>/TB_Registros - behavior C:|MIPS 2018|monociclo|TB_Registros.vhd</ClosedNode>
+         <ClosedNode>/TB_Registros - behavior C:|Users|Joaquin|Desktop|MIPS 2018|monociclo|TB_Registros.vhd</ClosedNode>
+         <ClosedNode>/TB_Registros - behavior C:|Users|Juan|Desktop|JUEVES 15|MIPS 2018|TB_Registros.vhd</ClosedNode>
+         <ClosedNode>/TB_Registros - behavior C:|Users|Juan|Desktop|MIPS 2018|TB_Registros.vhd</ClosedNode>
+         <ClosedNode>/TB_Registros - behavior C:|Users|Juan|Desktop|TODO ANDA|MIPS 2018|TB_Registros.vhd</ClosedNode>
+         <ClosedNode>/TB_Registros - behavior D:|MIPS 2018|monociclo|TB_Registros.vhd</ClosedNode>
+         <ClosedNode>/TB_Registros - behavior |home|ise|Desktop|JUEVES 13|MIPS 2018|TB_Registros.vhd</ClosedNode>
+         <ClosedNode>/TB_UnidadControl - behavior C:|Users|Joaquin|Desktop|MIPS 2018|monociclo|TB_UnidadControl.vhd</ClosedNode>
+         <ClosedNode>/TB_UnidadControl - behavior C:|Users|Juan|Desktop|JUEVES 15|MIPS 2018|TB_UnidadControl.vhd</ClosedNode>
+         <ClosedNode>/TB_UnidadControl - behavior C:|Users|Juan|Desktop|MIPS 2018|TB_UnidadControl.vhd</ClosedNode>
+         <ClosedNode>/TB_UnidadControl - behavior C:|Users|Juan|Desktop|TODO ANDA|MIPS 2018|TB_UnidadControl.vhd</ClosedNode>
+         <ClosedNode>/TB_UnidadControl - behavior |home|ise|Desktop|JUEVES 13|MIPS 2018|TB_UnidadControl.vhd</ClosedNode>
+         <ClosedNode>/TB_bintocdu - behavior C:|Users|Juan|Desktop|JUEVES 15|MIPS 2018|TB_bintocdu.vhd</ClosedNode>
+         <ClosedNode>/TB_bintocdu - behavior C:|Users|Juan|Desktop|MIPS 2018|TB_bintocdu.vhd</ClosedNode>
+         <ClosedNode>/TB_bintocdu - behavior C:|Users|Juan|Desktop|TODO ANDA|MIPS 2018|TB_bintocdu.vhd</ClosedNode>
+         <ClosedNode>/TB_divisor_frecuencia - behavior C:|Users|Juan|Desktop|MIPS 2018|TB_divisor_frecuencia.vhd</ClosedNode>
+         <ClosedNode>/TB_divisor_frecuencia - behavior C:|Users|Juan|Desktop|TODO ANDA|MIPS 2018|TB_divisor_frecuencia.vhd</ClosedNode>
+         <ClosedNode>/TB_latch - behavior C:|Users|Juan|Desktop|MIPS 2018|TB_latch.vhd</ClosedNode>
+         <ClosedNode>/Tb_datapath - behavior C:|Users|Joaquin|Desktop|MIPS 2018|monociclo|Tb_datapath.vhd</ClosedNode>
+         <ClosedNode>/Tb_datapath - behavior C:|Users|Juan|Desktop|JUEVES 14|MIPS 2018|Tb_datapath.vhd/uut - Datapath - Behavioral/Inst_new_ram - new_ram - new_ram_a</ClosedNode>
+         <ClosedNode>/Tb_datapath - behavior C:|Users|Juan|Desktop|JUEVES 15|MIPS 2018|Tb_datapath.vhd</ClosedNode>
+         <ClosedNode>/Tb_datapath - behavior C:|Users|Juan|Desktop|MIPS 2018|Tb_datapath.vhd</ClosedNode>
+         <ClosedNode>/Tb_datapath - behavior C:|Users|Juan|Desktop|TODO ANDA|MIPS 2018|Tb_datapath.vhd</ClosedNode>
+         <ClosedNode>/Tb_datapath - behavior |home|ise|Desktop|JUEVES 13|MIPS 2018|Tb_datapath.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>TB_MIPs2 - behavior (C:/Users/Juan/Desktop/MIPS 2018/TB_MIPs2.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001fb000000020000000000000000000000000200000064ffffffff000000810000000300000002000001fb0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>TB_MIPs2 - behavior (C:/Users/Juan/Desktop/MIPS 2018/TB_MIPs2.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000011a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000011a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000011a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000011a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000000ce000000d801000000050100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001b3000000010000000100000000000000000000000064ffffffff000000810000000000000001000001b30000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" />
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000011a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000011a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

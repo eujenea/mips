@@ -1,0 +1,285 @@
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+ibiswriter -intstyle ise -truncate 20 mips.ncd mips.ibs 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+netgen -intstyle ise -ar Structure -tm mips -w -dir netgen/synthesis -ofmt vhdl -sim mips.ngc mips_synthesis.vhd 
+xst -intstyle ise -ifn "C:/Users/Joaquin/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Joaquin/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Joaquin/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Joaquin/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Joaquin/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Joaquin/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Joaquin/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Joaquin/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Joaquin/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Joaquin/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+netgen -intstyle ise -ar Structure -tm mips -w -dir netgen/synthesis -ofmt vhdl -sim mips.ngc mips_synthesis.vhd 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/TODO ANDA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/TODO ANDA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/TODO ANDA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/TODO ANDA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/TODO ANDA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/TODO ANDA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/TODO ANDA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/TODO ANDA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/TODO ANDA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/TODO ANDA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/TODO ANDA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/TODO ANDA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/TODO ANDA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/TODO ANDA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/TODO ANDA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/TODO ANDA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/TODO ANDA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/TODO ANDA/MIPS 2018/mips.syr" 
+netgen -intstyle ise -ar Structure -tm mips -w -dir netgen/synthesis -ofmt vhdl -sim mips.ngc mips_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/TODO ANDA/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/TODO ANDA/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Joaquin/Desktop/JUAN MP/MIPS 2018/mips.xst" -ofn "C:/Users/Joaquin/Desktop/JUAN MP/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "C:/Users/Joaquin/Desktop/JUAN MP/MIPS 2018/mips.xst" -ofn "C:/Users/Joaquin/Desktop/JUAN MP/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/Joaquin/Desktop/JUAN MP/MIPS 2018/mips.xst" -ofn "C:/Users/Joaquin/Desktop/JUAN MP/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "C:/Users/Joaquin/Desktop/JUAN MP/MIPS 2018/mips.xst" -ofn "C:/Users/Joaquin/Desktop/JUAN MP/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+xst -intstyle ise -ifn "C:/Users/Joaquin/Desktop/JUAN MP/MIPS 2018/mips.xst" -ofn "C:/Users/Joaquin/Desktop/JUAN MP/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/Joaquin/Desktop/JUAN MP/MIPS 2018/mips.xst" -ofn "C:/Users/Joaquin/Desktop/JUAN MP/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018_final_si_el_señor_jesus_quiere/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018_final_si_el_señor_jesus_quiere/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018_final_si_el_señor_jesus_quiere/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018_final_si_el_señor_jesus_quiere/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018_final_si_el_señor_jesus_quiere/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018_final_si_el_señor_jesus_quiere/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018_final_si_el_señor_jesus_quiere/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018_final_si_el_señor_jesus_quiere/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan/Desktop/MIPS 2018/mips.xst" -ofn "C:/Users/Juan/Desktop/MIPS 2018/mips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mips.ucf -p xc3s100e-cp132-5 "mips.ngc" mips.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mips_map.ncd mips.ngd mips.pcf 
+par -w -intstyle ise -ol high -t 1 mips_map.ncd mips.ncd mips.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mips.twx mips.ncd -o mips.twr mips.pcf -ucf mips.ucf 
+bitgen -intstyle ise -f mips.ut mips.ncd 
+xst -intstyle ise -ifn "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/mips.xst" -ofn "/home/eujnia/Escritorio/TP-Elec/MIPS 2018/MIPS 2018/mips.syr" 
+xst -intstyle ise -ifn "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/mips.xst" -ofn "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/mips.syr" 

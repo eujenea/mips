@@ -1,0 +1,5 @@
+set -tmpdir "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/xst/projnav.tmp"
+set -xsthdpdir "/home/eujnia/Escritorio/TP-Organizacion/mips19-7/xst"
+elaborate
+-ifn divisor_frecuecia.prj
+-ifmt mixed

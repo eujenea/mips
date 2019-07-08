@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Dec 19 00:37:34 2018
+# Process ID: 6392
+# Log file: C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/planAhead_run_3/planAhead.log
+# Journal file: C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin H12 [get_ports {sieteSeg[5]}]
+endgroup

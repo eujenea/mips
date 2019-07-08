@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Juan/Desktop/JUEVES 15/MIPS 2018/xst"
+elaborate
+-ifn BINtoCDU_BCD.prj
+-ifmt mixed

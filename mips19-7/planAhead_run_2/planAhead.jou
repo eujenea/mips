@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Dec 19 00:02:45 2018
+# Process ID: 2184
+# Log file: C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Juan/Desktop/JUEVES 15 FPGA/MIPS 2018/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  {sieteSeg[7]}]]
+set_property package_pin "" [get_ports [list  {sieteSeg[10]}]]
+set_property package_pin "" [get_ports [list  {sieteSeg[10]}]]
+set_property package_pin "" [get_ports [list  {sieteSeg[9]}]]
+set_property package_pin "" [get_ports [list  {sieteSeg[10]}]]
+set_property package_pin "" [get_ports [list  {sieteSeg[10]}]]
+startgroup
+set_property package_pin K14 [get_ports {sieteSeg[7]}]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {sieteSeg[8]}]
+endgroup
+startgroup
+set_property package_pin J12 [get_ports {sieteSeg[9]}]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {sieteSeg[10]}]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {sieteSeg[10]}]
+endgroup
+save_constraints

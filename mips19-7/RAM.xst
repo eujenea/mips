@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Joaquin/Desktop/JUAN MP/MIPS 2018/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Joaquin/Desktop/JUAN MP/MIPS 2018/xst"
+elaborate
+-ifn RAM.prj
+-ifmt mixed

@@ -1,0 +1,67 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/Users/Juan/Desktop/MIPS 2018/TB_MIPs2_isim_beh.exe" -prj "C:/Users/Juan/Desktop/MIPS 2018/TB_MIPs2_beh.prj" "work.TB_MIPs2" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Juan/Desktop/MIPS 2018/suma3.vhd" into library work
+Parsing VHDL file "C:/Users/Juan/Desktop/MIPS 2018/hex2led.vhd" into library work
+Parsing VHDL file "C:/Users/Juan/Desktop/MIPS 2018/display_mux.vhd" into library work
+Parsing VHDL file "C:/Users/Juan/Desktop/MIPS 2018/BIN2CDU_BCD.vhd" into library work
+Parsing VHDL file "C:/Users/Juan/Desktop/MIPS 2018/anti_rebote.vhd" into library work
+Parsing VHDL file "C:/Users/Juan/Desktop/MIPS 2018/signExtend.vhd" into library work
+Parsing VHDL file "C:/Users/Juan/Desktop/MIPS 2018/ROM.vhd" into library work
+Parsing VHDL file "C:/Users/Juan/Desktop/MIPS 2018/registros.vhd" into library work
+Parsing VHDL file "C:/Users/Juan/Desktop/MIPS 2018/RAM.vhd" into library work
+Parsing VHDL file "C:/Users/Juan/Desktop/MIPS 2018/program_counter.vhd" into library work
+Parsing VHDL file "C:/Users/Juan/Desktop/MIPS 2018/mux_3_1_32bits.vhd" into library work
+Parsing VHDL file "C:/Users/Juan/Desktop/MIPS 2018/mux_2_1_4bits.vhd" into library work
+Parsing VHDL file "C:/Users/Juan/Desktop/MIPS 2018/mux_2_1_32bits.vhd" into library work
+Parsing VHDL file "C:/Users/Juan/Desktop/MIPS 2018/mainDecoder.vhd" into library work
+Parsing VHDL file "C:/Users/Juan/Desktop/MIPS 2018/latch.vhd" into library work
+Parsing VHDL file "C:/Users/Juan/Desktop/MIPS 2018/controladorio.vhd" into library work
+Parsing VHDL file "C:/Users/Juan/Desktop/MIPS 2018/aluPlus4.vhd" into library work
+Parsing VHDL file "C:/Users/Juan/Desktop/MIPS 2018/aluDecoder.vhd" into library work
+Parsing VHDL file "C:/Users/Juan/Desktop/MIPS 2018/alu.vhd" into library work
+Parsing VHDL file "C:/Users/Juan/Desktop/MIPS 2018/unidadControl.vhd" into library work
+Parsing VHDL file "C:/Users/Juan/Desktop/MIPS 2018/divisor_frecuecia.vhd" into library work
+Parsing VHDL file "C:/Users/Juan/Desktop/MIPS 2018/Datapath.vhd" into library work
+Parsing VHDL file "C:/Users/Juan/Desktop/MIPS 2018/mips.vhd" into library work
+Parsing VHDL file "C:/Users/Juan/Desktop/MIPS 2018/TB_MIPs2.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package numeric_std
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity divisor_frecuecia [divisor_frecuecia_default]
+Compiling package std_logic_signed
+Compiling architecture arch_pc of entity PC [pc_default]
+Compiling architecture arch_ram of entity RAM [ram_default]
+Compiling architecture syn of entity rom [rom_default]
+Compiling architecture arch_registros of entity registros [registros_default]
+Compiling architecture arch_alu of entity alu [alu_default]
+Compiling architecture behavioral of entity aluPlus [aluplus_default]
+Compiling architecture arch_mux_2_1_32bits of entity mux_2_1_32bits [mux_2_1_32bits_default]
+Compiling architecture behavioral of entity mux_3_1_32bits [mux_3_1_32bits_default]
+Compiling architecture arch_mux_2_1_4bits of entity mux_2_1_4bits [mux_2_1_4bits_default]
+Compiling architecture arch_signextend of entity signExtend [signextend_default]
+Compiling architecture behavioral of entity anti_rebote [anti_rebote_default]
+Compiling architecture arch of entity display_mux [display_mux_default]
+Compiling architecture behavioral of entity Suma3 [suma3_default]
+Compiling architecture behavioral of entity BINtoCDU_BCD [bintocdu_bcd_default]
+Compiling architecture arch of entity hex2led [hex2led_default]
+Compiling architecture behavioral of entity controlador_io [controlador_io_default]
+Compiling architecture behavioral of entity latch [latch_default]
+Compiling architecture behavioral of entity Datapath [datapath_default]
+Compiling architecture behavioral of entity aluDecoder [aludecoder_default]
+Compiling architecture behavioral of entity mainDecoder [maindecoder_default]
+Compiling architecture behavioral of entity unidadControl [unidadcontrol_default]
+Compiling architecture behavioral of entity mips [mips_default]
+Compiling architecture behavior of entity tb_mips2
+Time Resolution for simulation is 1ps.
+Waiting for 21 sub-compilation(s) to finish...
+Compiled 53 VHDL Units
+Built simulation executable C:/Users/Juan/Desktop/MIPS 2018/TB_MIPs2_isim_beh.exe
+Fuse Memory Usage: 37332 KB
+Fuse CPU Usage: 1123 ms

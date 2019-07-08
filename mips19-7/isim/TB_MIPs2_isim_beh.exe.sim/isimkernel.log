@@ -1,0 +1,31 @@
+Command line:
+   TB_MIPs2_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50074
+
+Tue Apr 09 11:54:14 2019
+
+
+ Elaboration Time: 0.078 sec
+
+ Current Memory Usage: 667.746 Meg
+
+ Total Signals          : 251
+ Total Nets             : 3483
+ Total Signal Drivers   : 102
+ Total Blocks           : 46
+ Total Primitive Blocks : 40
+ Total Processes        : 88
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 3985
+Total Line Count : 184
+In process ROM.vhd:76 
+ 
+
+ Total Simulation Time: 0.358802 sec
+
+ Current Memory Usage: 667.746 Meg
+
+Tue Apr 09 12:00:05 2019
+
